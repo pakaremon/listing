@@ -8,9 +8,11 @@ int main() {
     // Check if the command was executed successfully
     if (result == -1) {
         // Handle error
-        perror("system");
+        printf("Error executing the command ls\n");
         return 1;
     }
+
+    printf("Command ls executed successfully\n");
 
     return 0;
 }
