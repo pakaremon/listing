@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 int main() {
     // Execute the 'ls' command
